@@ -1,0 +1,169 @@
+/* 这个文件里写的是全局样式,在各个页面都生效 */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  user-select: text;
+  font-size: 14px;
+  font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
+html {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+body, html, .page {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 100%;
+}
+h1, h2, h3, h4, h5, input {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color: initial;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
+  margin:0;
+  padding:0;
+}
+
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.w1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.h20 {
+  height: 20px;
+}
+
+.h30 {
+  height: 30px;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.pc .no-pc, .phone .no-phone {
+  display: none;
+}
+
+.phone .no-phone, .pc .no-pc {
+  display: none;
+}
+
+.phone .title-bar {
+  display: none;
+}
+
+.pc .conn {
+  position: absolute;
+  top: 40vw;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.phone .message-box {
+  background-image: url('../resource/phone-message-box.png');
+}
+
+.phone .w1200 {
+  width: 100%;
+}
+
+.phone .message-box {
+  margin: 0 auto;
+  width: 96%;
+  float: none;
+}
+
+.phone .message-box h2 {
+  position: absolute;
+  left: 18vw;
+  top: 3vw;
+  width: 70vw;
+  font-size: 4vw;
+  line-height: 6vw;
+  color: white;
+}
+
+.phone .message-box h3 {
+  position: absolute;
+  left: 17vw;
+  top: 24vw;
+  color: #525252;
+  font-size: 15px;
+}
+
+.phone .message-box .text {
+  position: absolute;
+  left: 17vw;
+  top: 32vw;
+  width: 74vw;
+  line-height: 21px;
+  font-size: 12px;
+  height: 30vw;
+  overflow: auto;
+  padding-right: 4vw;
+}
+
+.phone .main-img-box .editer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 71vw;
+  color: white;
+  width: 90%;
+  margin: auto;
+  text-indent: 2em;
+  font-size: 14px;
+  line-height: 21px;
+  height: 38vw;
+  overflow: auto;
+}
+
+.more {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.phone .w1200 {
+  height: 229vw;
+  overflow: hidden;
+}

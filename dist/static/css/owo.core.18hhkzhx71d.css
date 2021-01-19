@@ -1,0 +1,176 @@
+body, html, .page, .page-box {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+img {
+  border: none;
+}
+
+[route-active="false"] {
+  display: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.title-bar {
+  height: 40px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.title-bar .content {
+  width: 1000px;
+  height: 40px;
+  margin: auto;
+}
+
+.title-bar img {
+  margin: 5px 10px;
+  height: 30px;
+}
+
+.title-bar a {
+  float: left;
+  display: block;
+}
+
+.title-bar .link {
+  color: rgba(102, 102, 102, 1.00);
+  font-size: 14px;
+  margin: 0 10px;
+  line-height: 40px;
+}
+
+.title-bar a {
+  color: #333;
+  text-decoration: none;
+}
+#copyright {
+  height: 60px;
+  padding: 40px 0;
+  position: relative;
+  font-size: 14px;
+  height: 60px;
+  color: #000000;
+  z-index: 999;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  background-color: transparent;
+}
+.main-img-box {
+  position: relative;
+}
+
+.main-img-box img {
+  display: block;
+  width: 100%;
+}
+
+.main-img-box .editer {
+  position: absolute;
+  right: 0;
+  left: 9%;
+  top: 26%;
+  color: white;
+  width: 51%;
+  margin: auto;
+  text-indent: 2em;
+  font-size: 16px;
+  line-height: 27px;
+  height: 6%;
+  overflow: auto;
+}
+
+.message-box {
+  position: relative;
+  background-image: url('../resource/message-box.png');
+  width: 543px;
+  height: 289px;
+  background-size: 100% auto;
+  margin: 0 27px;
+  background-repeat: no-repeat;
+}
+
+.message-box {
+  margin-bottom: 30px;
+}
+
+.message-box h2 {
+  position: absolute;
+  left: 108px;
+  top: 24px;
+  width: 420px;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+
+.message-box h3 {
+  position: absolute;
+  left: 128px;
+  top: 99px;
+  color: #525252;
+  font-size: 17px;
+}
+
+.message-box .text {
+  position: absolute;
+  left: 128px;
+  top: 138px;
+  width: 381px;
+  line-height: 21px;
+  font-size: 12px;
+}
+
+.message-box a {
+  color: white;
+  display: block;
+}
+
+.message-box a:hover {
+  color: white;
+}
+
